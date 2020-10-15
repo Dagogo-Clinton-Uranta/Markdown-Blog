@@ -1,0 +1,21 @@
+<title>Blog</title>
+<head>
+ <body>
+     <div class="container">
+         <h1 class="mb-1"> <%= article.title %> </h1>
+         <div class= "text muted mb-2"> <%= article.createdAt.toLocalDateString() %> </div>
+     
+
+     <a href="/" class="btn btn-secondary">All Articles</a>
+     <a href="/edit/<%= article.id %>" class="btn btn-info">Edit</a>
+     
+    <div>
+        <%= article.convertedHtml %>
+    </div> 
+    
+</div>
+
+ </body>
+
+
+</head>

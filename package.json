@@ -1,0 +1,28 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "this file shows all the apps my package is dependent upon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [
+    "markdown",
+    "blog",
+    "express"
+  ],
+  "author": "DAGOGO URANTA",
+  "license": "ISC",
+  "dependencies": {
+    "dompurify": "^2.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "marked": "^1.2.0",
+    "mongoose": "^5.10.7",
+    "slugify": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
